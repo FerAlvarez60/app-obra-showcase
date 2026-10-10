@@ -1,12 +1,14 @@
 # 🏗️ App Obra
 
-### Construction Management & Progress Tracking Platform
+### Construction Management & Real-Time Progress Tracking Platform
 
-App Obra is a multi-tenant web application designed for construction companies to manage projects and give their clients remote access to construction progress.
+App Obra is a multi-tenant web application designed for construction companies to manage projects and give their clients remote, real-time access to construction progress.
 
-The project was created after identifying a real-world problem: clients are often unable to visit a construction site frequently and need a simple way to follow its progress remotely.
+The project was created after identifying a real-world problem: clients are often unable to visit a construction site frequently and need a simple and transparent way to follow its progress remotely.
 
 🌐 **Live Application:** https://www.appobra.com/
+
+📄 **Project Presentation:** [View App Obra Portfolio](./App_Obra_Portfolio_REHECHO_PASO_A_PASO.pdf)
 
 ---
 
@@ -14,24 +16,46 @@ The project was created after identifying a real-world problem: clients are ofte
 
 Construction clients may live far from the project or simply be unable to visit the site regularly.
 
-App Obra provides a centralized digital environment where construction companies can document progress while clients can follow their project remotely from a phone, tablet or computer.
+App Obra provides a centralized digital environment where construction companies can document and manage progress while clients can follow their project remotely from a phone, tablet or computer.
+
+One of the core goals of the platform is to improve communication and transparency between the construction company and its clients.
 
 ---
 
 ## ✨ Key Features
 
 - Multi-company architecture
-- Role-based access and different user experiences
-- Super Admin management
-- Company owners and collaborators
-- Client access to their own projects
+- Role-based access with different user experiences
+- Super Admin platform management
+- Company Owner / Admin management
+- Collaborator creation and assignment to projects
+- Public client project view
 - Construction project and stage management
-- Photo and comment tracking by construction stage
-- Configurable weighted progress calculation
-- Budget and advance payment management
+- Configurable stage importance
+- Weighted overall progress calculation
+- Real-time progress updates in the client view
+- Client progress updates without requiring a page refresh
+- Photo evidence and comments by construction stage
+- Stage notes and project history
+- Reordering of construction stages
+- Budget, advance payment and balance management
 - Additional work and budget management
+- Multiple projects under the same company
+- Public project links for clients
 - Responsive interface for desktop, tablet and mobile
 - Company registration with administrative approval
+
+---
+
+## ⚡ Real-Time Client Progress
+
+One of App Obra's key features is real-time project visibility.
+
+When the company updates the progress of a construction stage, the resulting progress percentage is automatically reflected in the client's public project view.
+
+**The client does not need to refresh the page to see the updated progress.**
+
+This allows clients to follow the evolution of their construction project remotely while the company continues managing the project from its administrative environment.
 
 ---
 
@@ -41,7 +65,12 @@ Construction stages do not necessarily have the same impact on the overall progr
 
 App Obra allows each construction company to assign different weights to project stages according to their importance.
 
-For example, completing a structural stage can have a greater impact on total progress than completing a minor finishing task.
+For example, a structural stage may represent a larger portion of the project than a minor finishing stage.
+
+The overall project percentage is calculated using both:
+
+- The importance assigned to each stage
+- The actual progress of that stage
 
 This allows the displayed progress percentage to better represent the real state of the construction.
 
@@ -49,21 +78,49 @@ This allows the displayed progress percentage to better represent the real state
 
 ## 👥 User Roles
 
-App Obra separates responsibilities and access between different types of users:
+App Obra separates responsibilities and access between four different user experiences:
 
-**Super Admin**  
-Manages the platform and controls company access.
+### Super Admin
 
-**Company Owner**  
-Manages the construction company, projects, clients and collaborators.
+Manages the platform at a global level, including companies, administrators, works and company activation requests.
 
-**Collaborators**  
-Work within their company's environment according to their assigned responsibilities.
+### Company Owner / Admin
 
-**Clients**  
-Access their construction projects and follow progress remotely.
+Manages the construction company's environment, including projects, stages, collaborators, responsible users, progress, photos, comments, budgets and public client links.
+
+### Collaborator
+
+Works within the company's environment according to the projects and responsibilities assigned by the Company Owner / Admin.
+
+### Client
+
+Accesses a simplified public project view through a dedicated link.
+
+The client can follow overall progress, individual construction stages, photographic evidence, comments and project budget information without accessing administrative controls.
 
 Each construction company operates within its own environment.
+
+---
+
+## 📸 Construction Evidence & History
+
+Construction progress can be documented with photos and comments associated with individual project stages.
+
+Stage notes and progress updates can also remain recorded in the project history, providing a clearer record of how the construction has evolved over time.
+
+---
+
+## 💰 Budget Management
+
+Each project can include financial information such as:
+
+- Total project budget
+- Advance payment
+- Remaining balance
+- Payment status
+- Additional work and associated budget
+
+This allows operational progress and financial information to remain connected within the same project environment.
 
 ---
 
@@ -103,7 +160,7 @@ My role included:
 - Reviewing application behavior and edge cases
 - Continuous feature refinement
 
-AI was used as a development tool to accelerate implementation while programming knowledge and product decisions guided the development process.
+AI was used as a development tool to accelerate implementation, while product decisions, business logic, testing and development direction guided the overall process.
 
 ---
 
@@ -119,15 +176,19 @@ The goal was to maintain a simple and consistent user experience across desktop 
 
 App Obra is fully functional and available online.
 
-The next stage of the project is focused on its commercial evolution, including different service plans for construction companies.
+The project is currently evolving toward its commercial stage, including different service plans for construction companies.
+
+🌐 **Try App Obra:** https://www.appobra.com/
+
+📄 **View the complete project presentation:** [App Obra Portfolio](./App_Obra_Portfolio_REHECHO_PASO_A_PASO.pdf)
 
 ---
 
 ## 🔒 Source Code
 
-The source code is maintained in a private repository because App Obra is intended to be developed as a commercial product.
+The source code is maintained in a private repository because App Obra is being developed as a commercial product.
 
-This repository serves as a public technical showcase of the project.
+This repository serves as a public technical and product showcase of the project.
 
 ---
 
