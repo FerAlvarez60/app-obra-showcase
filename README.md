@@ -8,7 +8,7 @@ The project was created after identifying a real-world problem: clients are ofte
 
 🌐 **Live Application:** https://www.appobra.com/
 
-📄 **Project Presentation:** [View App Obra Portfolio](./App_Obra_Portfolio_REHECHO_PASO_A_PASO.pdf)
+📄 **Project Presentation:** [View App Obra Portfolio](./App_Obra_Portfolio.pdf)
 
 ---
 
