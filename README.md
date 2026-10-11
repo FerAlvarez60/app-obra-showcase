@@ -8,7 +8,6 @@ The project was created after identifying a real-world problem: clients are ofte
 
 🌐 **Live Application:** https://www.appobra.com/
 
-📄 **Project Presentation:** [View App Obra Portfolio](./App_Obra_Portfolio.pdf)
 
 ---
 
@@ -231,7 +230,6 @@ The project is currently evolving toward its commercial stage, including differe
 
 🌐 **Try App Obra:** https://www.appobra.com/
 
-📄 **View the complete project presentation:** [App Obra Portfolio](./App_Obra_Portfolio_REHECHO_PASO_A_PASO.pdf)
 
 ---
 
