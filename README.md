@@ -171,6 +171,57 @@ The application was tested across multiple screen sizes using browser developmen
 The goal was to maintain a simple and consistent user experience across desktop computers, tablets and smartphones.
 
 ---
+---
+
+## 📸 App Obra in Action
+
+The following screenshots show the complete workflow of App Obra, from platform administration and project creation to real-time construction tracking and the final client experience.
+
+### 1. Super Admin — Platform Management
+
+The Super Admin manages the platform at a global level, including registered construction companies, administrators, active projects and pending company activations.
+
+![App Obra Super Admin](./appobra_super_admin.png)
+
+### 2. Company Admin — Project Creation
+
+Each construction company has its own administration environment. From this panel, an administrator can create new projects, define estimated completion dates, budgets and construction stages.
+
+![App Obra Project Creation](./appobra_project_creation.png)
+
+### 3. Real-Time Project Management
+
+The company manages the progress of each construction stage, assigns its importance within the project, updates completion percentages, adds notes and uploads photographic evidence.
+
+The overall project progress is calculated from the progress and weight of its individual stages. Updates are reflected in the client's view.
+
+![App Obra Project Management](./appobra_project_management.png)
+
+### 4. Team & Collaborator Management
+
+Company administrators can add collaborators to help manage projects and construction updates within the company's workspace.
+
+![App Obra Collaborators](./appobra_collaborators.png)
+
+### 5. Budget & Payment Tracking
+
+App Obra allows companies to manage project budgets, advances and payment status, keeping the financial information associated with each construction project organized and up to date.
+
+![App Obra Budget](./appobra_budget.png)
+
+### 6. Photo Updates & Construction Evidence
+
+Photos can be uploaded for individual construction stages together with comments, creating a visual record of the project's progress that can be shared with the client.
+
+![App Obra Photo Updates](./appobra_photo_updates.png)
+
+### 7. Client View — Real-Time Progress
+
+Clients access a simplified, read-only project view through their public project link. They can remotely follow overall progress, individual construction stages, photos, comments, estimated completion date and budget information.
+
+![App Obra Client View](./appobra_client_view.png)
+
+---
 
 ## 🚀 Project Status
 
